@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>喜欢一个人</title>
+  
+  <subtitle>读万卷书 ，行万里路 ，阅无数人</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jialiang2015.github.io/"/>
+  <updated>2019-12-17T03:20:37.258Z</updated>
+  <id>https://jialiang2015.github.io/</id>
+  
+  <author>
+    <name>wxhygr</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jialiang2015.github.io/2019/12/17/hello-world/"/>
+    <id>https://jialiang2015.github.io/2019/12/17/hello-world/</id>
+    <published>2019-12-17T03:20:37.258Z</published>
+    <updated>2019-12-17T03:20:37.258Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
