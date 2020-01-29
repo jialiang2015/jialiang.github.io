@@ -18,54 +18,16 @@
     
     <entry>
       <title>笔记</title>
-      <link href="/2019/12/22/shi-jian-cao-zuo/"/>
-      <url>/2019/12/22/shi-jian-cao-zuo/</url>
-      
-        <content type="html"><![CDATA[<h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post &quot;自己定义&quot;</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p><pre><code>1. windows系统，下个Typora比较好 2. 在git中输入 `hexo g`，生成静态网页 3. 输入`hexo s`，进行本地预览效果，访问localhost:端口号 ，之后ctrl+c 退出 4. 最后输入`hexo d` 上传到GitHub，就ok了</code></pre><h3 id="文章中添加网易云音乐"><a href="#文章中添加网易云音乐" class="headerlink" title="文章中添加网易云音乐"></a>文章中添加网易云音乐</h3><p>​    先打开网易云网页版，选择想听的歌曲，选择生成外链，直接复制html下的代码，复制到文章中</p><h2 id="2-2020-01-12"><a href="#2-2020-01-12" class="headerlink" title="2.2020-01-12"></a>2.2020-01-12</h2><h3 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h3><ol><li>去注册小程序    订阅号(大部分是，利于传达资讯)，服务号(提供服务)，企业号</li><li>微信会提供小程序开发工具和界面，需要下载</li><li>学习html5,css3和JavaScript</li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 欧力给！！！ </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>笔记</title>
-      <link href="/2019/12/22/cao-zuo/"/>
-      <url>/2019/12/22/cao-zuo/</url>
-      
-        <content type="html"><![CDATA[<h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post &quot;自己定义&quot;</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p><p>​    windows系统，下个Typora比较好</p><p>​    在git中输入 <code>hexo g</code>    生成静态网页</p><p>​    输入<code>hexo s</code>    进行本地预览效果，访问localhost:端口号     之后ctrl+c 退出</p><p>​    最后输入<code>hexo d</code> 上传到GitHub，就ok了</p><h3 id="添加网易云音乐，文章中"><a href="#添加网易云音乐，文章中" class="headerlink" title="添加网易云音乐，文章中"></a>添加网易云音乐，文章中</h3><p>​    先打开网易云网页版，选择想听的歌曲，选择生成外链，直接复制html下的代码，复制到文章中</p><h2 id="2-2020-01-12"><a href="#2-2020-01-12" class="headerlink" title="2.2020-01-12"></a>2.2020-01-12</h2><h3 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h3><ol><li>去注册小程序    订阅号(大部分是，利于传达资讯)，服务号(提供服务)，企业号</li><li>微信会提供小程序开发工具和界面，需要下载</li><li>学习html5,css3和JavaScript</li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 操作的一些步骤 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>笔记</title>
       <link href="/2019/12/22/bi-ji/"/>
       <url>/2019/12/22/bi-ji/</url>
       
-        <content type="html"><![CDATA[<h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=494482233&auto=1&height=66"></iframe><h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post &quot;自己定义&quot;</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p><pre><code>1. windows系统，下个Typora比较好 2. 在git中输入 `hexo g`，生成静态网页 3. 输入`hexo s`，进行本地预览效果，访问localhost:端口号 ，之后ctrl+c 退出 4. 最后输入`hexo d` 上传到GitHub，就ok了</code></pre><h3 id="文章中添加网易云音乐"><a href="#文章中添加网易云音乐" class="headerlink" title="文章中添加网易云音乐"></a>文章中添加网易云音乐</h3><p>​    先打开网易云网页版，选择想听的歌曲，选择生成外链，直接复制html下的代码，复制到文章中</p><h2 id="2-2020-01-12"><a href="#2-2020-01-12" class="headerlink" title="2.2020-01-12"></a>2.2020-01-12</h2><h3 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h3><ol><li>去注册小程序    订阅号(大部分是，利于传达资讯)，服务号(提供服务)，企业号</li><li>微信会提供小程序开发工具和界面，需要下载</li><li>学习html5,css3和JavaScript(未完)</li></ol><h2 id="3-2020-1-28"><a href="#3-2020-1-28" class="headerlink" title="3.2020-1-28"></a>3.2020-1-28</h2><h3 id="博客hexo出现error：spawn-failed错误"><a href="#博客hexo出现error：spawn-failed错误" class="headerlink" title="博客hexo出现error：spawn failed错误"></a>博客hexo出现error：spawn failed错误</h3><p>通过hexo d无法部署：</p><ol><li>在存放.ssh key的目录下新建config文件——本人电脑—–c/用户/86184/.ssh</li></ol><blockquote><p>.ssh文件中包含：</p><blockquote><p>id_rsa</p><p>id_rsa.pub</p><p>known_hosts</p></blockquote></blockquote><ol start="2"><li><p>在config文件中填入一下内容</p><pre><code>Host github.comUser 你GitHub的邮箱Hostname ssh.github.comPreferredAuthentications publickeyIdentityFile ~/.ssh/id_rsaPort 443</code></pre></li><li><p>用 <code>ssh -T git@github.com</code>命令测试能否连接</p></li><li><p>在博客的根目录，打开_config.yml配置文件</p><pre><code># 将repo: https://github.com/yourname/yourname.github.io.git写成下面的deploy:  type: git  repo: git@github.com:yourname/yourname.github.io.git  branch: master</code></pre></li><li><p>hexo clean—–hexo g——hexo d部署</p></li></ol><h3 id="网易云音乐MP3外链，地址下载方法"><a href="#网易云音乐MP3外链，地址下载方法" class="headerlink" title="网易云音乐MP3外链，地址下载方法"></a>网易云音乐MP3外链，地址下载方法</h3><blockquote><p>第一步打开网易云音乐，随便找到一首歌，播放，复制网址的ID，</p><p>例如：杨钰莹的心雨，网址是：</p><p><a href="http://music.163.com/#/song?id=317151" target="_blank" rel="noopener">http://music.163.com/#/song?id=317151</a></p><p>很明显，ID是317151</p><p>那么，这首歌的真实地址就是：</p><p><a href="http://music.163.com/song/media/outer/url?id=317151.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=317151.mp3</a></p><p>这个地址不会失效的；</p><p><strong>这就得到一个下载公式：</strong></p><p><strong><a href="http://music.163.com/song/media/outer/url?id=ID数字.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=ID数字.mp3</a></strong></p><p><strong>把上面ID数字换成网易云播放页面的id即可。</strong></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=494482233&auto=1&height=66"></iframe><h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post &quot;自己定义&quot;</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p><ol><li>windows系统，下个Typora比较好</li><li>在git中输入 <code>hexo g</code>，生成静态网页</li><li>输入<code>hexo s</code>，进行本地预览效果，访问localhost:端口号 ，之后ctrl+c 退出</li><li>最后输入<code>hexo d</code> 上传到GitHub，就ok了</li></ol><h3 id="文章中添加网易云音乐"><a href="#文章中添加网易云音乐" class="headerlink" title="文章中添加网易云音乐"></a>文章中添加网易云音乐</h3><p>​    先打开网易云网页版，选择想听的歌曲，选择生成外链，直接复制html下的代码，复制到文章中</p><h2 id="2-2020-01-12"><a href="#2-2020-01-12" class="headerlink" title="2.2020-01-12"></a>2.2020-01-12</h2><h3 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h3><ol><li>去注册小程序    订阅号(大部分是，利于传达资讯)，服务号(提供服务)，企业号</li><li>微信会提供小程序开发工具和界面，需要下载</li><li>学习html5,css3和JavaScript(未完)</li></ol><h2 id="3-2020-1-28"><a href="#3-2020-1-28" class="headerlink" title="3.2020-1-28"></a>3.2020-1-28</h2><h3 id="博客hexo出现error：spawn-failed错误"><a href="#博客hexo出现error：spawn-failed错误" class="headerlink" title="博客hexo出现error：spawn failed错误"></a>博客hexo出现error：spawn failed错误</h3><p>通过hexo d无法部署：</p><ol><li>在存放.ssh key的目录下新建config文件——本人电脑—–c/用户/86184/.ssh</li></ol><blockquote><p>.ssh文件中包含：</p><blockquote><p>id_rsa</p><p>id_rsa.pub</p><p>known_hosts</p></blockquote></blockquote><ol start="2"><li><p>在config文件中填入一下内容</p><pre><code>Host github.comUser 你GitHub的邮箱Hostname ssh.github.comPreferredAuthentications publickeyIdentityFile ~/.ssh/id_rsaPort 443</code></pre></li><li><p>用 <code>ssh -T git@github.com</code>命令测试能否连接</p></li><li><p>在博客的根目录，打开_config.yml配置文件</p><pre><code># 将repo: https://github.com/yourname/yourname.github.io.git写成下面的deploy:  type: git  repo: git@github.com:yourname/yourname.github.io.git  branch: master</code></pre></li><li><p>hexo clean—–hexo g——hexo d部署</p></li></ol><h3 id="网易云音乐MP3外链，地址下载方法"><a href="#网易云音乐MP3外链，地址下载方法" class="headerlink" title="网易云音乐MP3外链，地址下载方法"></a>网易云音乐MP3外链，地址下载方法</h3><blockquote><p>第一步打开网易云音乐，随便找到一首歌，播放，复制网址的ID，</p><p>例如：杨钰莹的心雨，网址是：</p><p><a href="http://music.163.com/#/song?id=317151" target="_blank" rel="noopener">http://music.163.com/#/song?id=317151</a></p><p>很明显，ID是317151</p><p>那么，这首歌的真实地址就是：</p><p><a href="http://music.163.com/song/media/outer/url?id=317151.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=317151.mp3</a></p><p>这个地址不会失效的；</p><p><strong>这就得到一个下载公式：</strong></p><p><strong><a href="http://music.163.com/song/media/outer/url?id=ID数字.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=ID数字.mp3</a></strong></p><p><strong>把上面ID数字换成网易云播放页面的id即可。</strong></p></blockquote>]]></content>
       
       
       
         <tags>
             
-            <tag> 操作的一些步骤 </tag>
+            <tag> 日常经验 </tag>
             
         </tags>
       
