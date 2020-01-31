@@ -563,7 +563,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    569
+                    619
                 </div>
                 
 
@@ -586,9 +586,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=494482233&auto=1&height=66"></iframe>
+                <h1 id="记性不好，只能写点"><a href="#记性不好，只能写点" class="headerlink" title="记性不好，只能写点"></a>记性不好，只能写点</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=494482233&amp;auto=1&amp;height=66"></iframe>
 
-<h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post &quot;自己定义&quot;</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p>
+<h2 id="1-2019-12-24"><a href="#1-2019-12-24" class="headerlink" title="1.2019-12-24"></a>1.2019-12-24</h2><h3 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h3><p>​    首先，进入自己的博客根目录下，(我自己的在 <strong>F:\blog\wxhygrBlog</strong>)，鼠标右击，打开Git Bash Here，安装扩展<code>npm i hexo-deployer-git</code>     接着输入 <code>hexo new post "自己定义"</code>，新建文章，会在\source_posts目录下，多一个文件夹和一个.md文件，在.md文件中书写内容，图片存放在文件夹(hexo clean 清除缓存)</p>
 <ol>
 <li>windows系统，下个Typora比较好</li>
 <li>在git中输入 <code>hexo g</code>，生成静态网页</li>
@@ -644,7 +644,25 @@ deploy:
 <p><strong><a href="http://music.163.com/song/media/outer/url?id=ID数字.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=ID数字.mp3</a></strong></p>
 <p><strong>把上面ID数字换成网易云播放页面的id即可。</strong></p>
 </blockquote>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1133,7 +1151,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">4.4k</span>&nbsp;字
+                class="white-color">4.7k</span>&nbsp;字
             
             
             
