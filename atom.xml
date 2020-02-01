@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>隔壁MrChen</title>
+  <title>MrChen</title>
   
   <subtitle>斯人若彩虹，遇上方知有</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://jialiang2015.github.io/</id>
   
   <author>
-    <name>隔壁MrChen</name>
+    <name>MrChen</name>
     
   </author>
   
