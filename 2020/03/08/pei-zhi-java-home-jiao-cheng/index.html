@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Medias, MrChen">
-    <meta name="description" content="Medias | MrChen">
+    <meta name="keywords" content="配置JAVA_HOME教程, MrChen">
+    <meta name="description" content="必备的工具">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Medias | MrChen</title>
+    <title>配置JAVA_HOME教程 | MrChen</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -411,12 +411,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Medias</h1>
+                    <h1 class="description center-align post-title">配置JAVA_HOME教程</h1>
                 </div>
             </div>
         </div>
@@ -531,9 +531,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                                <span class="chip bg-color">工具</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -545,21 +549,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-30
+                    2020-03-08
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-30
+                    2020-03-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    52
+                    382
                 </div>
                 
 
@@ -582,7 +586,21 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script>
+                <blockquote>
+<p>右键我的电脑-&gt;系统属性-&gt;高级-&gt;环境变量-&gt;系统变量<br>注意：是下面的<strong>系统变量</strong>，不是上面的用户变量<br>新建变量名 JAVA_HOME，变量值 <strong>E:\JDK</strong>，【放在你下载JDK的目录中】<br>修改变量 Path ，在最前面加上 <strong>%JAVA_HOME%\bin;</strong><br>注意：”Path”是<strong>首字母大写</strong>，<strong>不要改成”PATH”</strong> bin后面要有<strong>分号</strong>;<br>注意：系统变量上面的用户变量里，不要有这两个，如果有应该去掉，以避免被干扰。</p>
+</blockquote>
+<blockquote>
+<p>win10电脑</p>
+<p>右键我的电脑-&gt;系统属性-&gt;高级-&gt;环境变量-&gt;系统变量</p>
+<p>在用户变量里添加<strong>JAVA_HOME</strong>，将jdk位置输进去，比如C:\Program Files\Java\jdk1.8.0_181</p>
+<p>在系统变量中，选择<strong>Path</strong>，点击编辑，选择新建，输入C:\Program Files\Java\jdk1.8.0_181</p>
+<p>一步步点击确定，关闭所有</p>
+</blockquote>
+<blockquote>
+<p> 点击确认关闭刚才的配置页面，这一步一定要做，否则刚才的配置不能生效</p>
+<p> 点WIN键-&gt;运行（或者使用win+r)<br> 输入cmd命令<br> 输入java -version<br> 如果出现版本信息，表明配置成功，显示形如java versioin 1.8_xxx<br> 如果失败了，调整前面的配置，然后要<strong>重新启动cmd命令</strong>，而不是在原有的cmd里面输入 java -version  </p>
+</blockquote>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -625,7 +643,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jialiang2015.github.io/Medias/index.html">https://jialiang2015.github.io/Medias/index.html</a>
+                    <a href="https://jialiang2015.github.io/2020/03/08/pei-zhi-java-home-jiao-cheng/">https://jialiang2015.github.io/2020/03/08/pei-zhi-java-home-jiao-cheng/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -662,7 +680,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                                    <span class="chip bg-color">工具</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -831,27 +853,24 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/Medias/index.html">
+                <a href="/2020/03/08/pei-zhi-java-home-jiao-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Medias">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="配置JAVA_HOME教程">
                         
-                        <span class="card-title">Medias</span>
+                        <span class="card-title">配置JAVA_HOME教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            必备的工具
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-08
                             </span>
                         <span class="publish-author">
                             
@@ -863,22 +882,30 @@
                 </div>
 
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                        <span class="chip bg-color">工具</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/Medias/index.html">
+                <a href="/2020/03/08/git/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Medias">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Git">
                         
-                        <span class="card-title">Medias</span>
+                        <span class="card-title">Git</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -892,7 +919,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-08
                             </span>
                         <span class="publish-author">
                             
@@ -902,7 +929,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
