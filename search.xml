@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Java 基础</title>
+      <link href="/2020/03/10/java-ji-chu/"/>
+      <url>/2020/03/10/java-ji-chu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-Java编程基础"><a href="#1-Java编程基础" class="headerlink" title="1. Java编程基础"></a>1. Java编程基础</h2><h3 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1. 标识符"></a>1. 标识符</h3><blockquote><p>例子：String $_hello</p><p>只能是<strong>字母，数字，下划线，美元符号</strong></p><p>不能以数字开头</p><p>不能是关键字</p><p>标识符的长度是任意的</p></blockquote><h3 id="2-变量和常量"><a href="#2-变量和常量" class="headerlink" title="2. 变量和常量"></a>2. 变量和常量</h3><blockquote><p>变量例子：int a = 10</p><p>常量例子：<strong>final</strong> int size = 10</p><p>常量只能赋值一次</p></blockquote><h3 id="3-注释"><a href="#3-注释" class="headerlink" title="3. 注释"></a>3. 注释</h3><blockquote><p>//    单行注释</p><p>/*    多行注释</p><p>/**    起到文档的作用    </p></blockquote><h3 id="4-命名习惯"><a href="#4-命名习惯" class="headerlink" title="4. 命名习惯"></a>4. 命名习惯</h3><blockquote><p><strong>变量和方法名</strong>    小驼峰命名    比如：computeArea</p><p><strong>类名</strong>    大驼峰命名    比如ComputeArea    </p><p>常量    比如：MAX_VALUE</p></blockquote><h3 id="5-数据类型"><a href="#5-数据类型" class="headerlink" title="5. 数据类型"></a>5. 数据类型</h3><blockquote><p>byte    <strong>-128——127</strong></p><p>short</p><p>int </p><p>long    <strong>比如：long a = 100L</strong></p><p>float    <strong>比如：float f = 1.2f</strong></p><p>double</p><p>char</p><p>boolean</p><p>String</p></blockquote><h3 id="6-从键盘读取数据"><a href="#6-从键盘读取数据" class="headerlink" title="6. 从键盘读取数据"></a>6. 从键盘读取数据</h3><pre class=" language-java"><code class="language-java">Scanner input <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token keyword">int</span> value <span class="token operator">=</span> input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><h3 id="7-数值操作符"><a href="#7-数值操作符" class="headerlink" title="7. 数值操作符"></a>7. 数值操作符</h3><blockquote><p>+</p><p>-</p><p>*</p><p>/    <strong>比如：1.0/2值为0.5    5/2值为2</strong></p><p>%    <strong>取模(取余数)    -7%3为-1    7%-3为1</strong></p></blockquote><h3 id="8-增强赋值操作符"><a href="#8-增强赋值操作符" class="headerlink" title="8. 增强赋值操作符"></a>8. 增强赋值操作符</h3><blockquote><p>+=    <strong>i += 8    就是    i = i +8</strong></p><p>-=</p><p>*=</p><p>/=</p><p>%=</p></blockquote><h3 id="9-自增和自减操作符"><a href="#9-自增和自减操作符" class="headerlink" title="9. 自增和自减操作符"></a>9. 自增和自减操作符</h3><blockquote><p>i = 10</p><p>i++    先运算后自增    a = 10 * i++    a=100    i=11</p><p>++i    先自增后运算    a = 10 * ++i    a=110    i=11</p><p>i–</p><p>–i</p></blockquote><h3 id="10-数值类型转换"><a href="#10-数值类型转换" class="headerlink" title="10 数值类型转换"></a>10 数值类型转换</h3><blockquote><p>自动类型转换</p><p>强制类型转换    <code>long a = (long)1000F</code></p></blockquote><h2 id="2-选择"><a href="#2-选择" class="headerlink" title="2. 选择"></a>2. 选择</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 高级语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些好用的网站</title>
+      <link href="/2020/03/09/yi-xie-hao-yong-de-wang-zhan/"/>
+      <url>/2020/03/09/yi-xie-hao-yong-de-wang-zhan/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>会一直更新下去</p></blockquote><h2 id="1-短信"><a href="#1-短信" class="headerlink" title="1. 短信"></a>1. 短信</h2><p><a href="https://www.pdflibr.com/" target="_blank" rel="noopener">方式一</a></p><p><a href="https://www.pdflibr.com/" target="_blank" rel="noopener">方式二</a></p><p><a href="https://www.pdflibr.com/" target="_blank" rel="noopener">方式三</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>配置JAVA_HOME教程</title>
       <link href="/2020/03/08/pei-zhi-java-home-jiao-cheng/"/>
       <url>/2020/03/08/pei-zhi-java-home-jiao-cheng/</url>
@@ -27,9 +65,15 @@
       <link href="/2020/03/08/git/"/>
       <url>/2020/03/08/git/</url>
       
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-提供git服务的网站"><a href="#1-提供git服务的网站" class="headerlink" title="1. 提供git服务的网站"></a>1. 提供git服务的网站</h2><blockquote><p> 提供git服务的网站有很多<br> 国外常用的是: <a href="http://github.com/" target="_blank" rel="noopener">http://github.com</a><br> 国内常用的是码云：<a href="http://git.oschina.net/" target="_blank" rel="noopener">http://git.oschina.net</a></p><p> github慢，但是上面内容多，大神多，简历里也需要github.com<br> 码云快，但是内容少  </p></blockquote><h2 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
       
     </entry>
     
