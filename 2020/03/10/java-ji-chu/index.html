@@ -556,21 +556,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-03-12
+                    2020-03-13
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    340
+                    926
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 				
@@ -586,7 +586,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-Java编程基础"><a href="#1-Java编程基础" class="headerlink" title="1. Java编程基础"></a>1. Java编程基础</h2><h3 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1. 标识符"></a>1. 标识符</h3><blockquote>
+                <h2 id="一-Java编程基础"><a href="#一-Java编程基础" class="headerlink" title="一. Java编程基础"></a>一. Java编程基础</h2><h3 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1. 标识符"></a>1. 标识符</h3><blockquote>
 <p>例子：String $_hello</p>
 <p>只能是<strong>字母，数字，下划线，美元符号</strong></p>
 <p>不能以数字开头</p>
@@ -609,15 +609,17 @@
 <p>常量    比如：MAX_VALUE</p>
 </blockquote>
 <h3 id="5-数据类型"><a href="#5-数据类型" class="headerlink" title="5. 数据类型"></a>5. 数据类型</h3><blockquote>
+<p>四类八种基本数据类型：</p>
 <p>byte    <strong>-128——127</strong></p>
 <p>short</p>
 <p>int </p>
 <p>long    <strong>比如：long a = 100L</strong></p>
+<p><strong>浮点数取值不可靠</strong>    <code>double a = 1.0-0.1-0.1-0.1-0.1-0.1;</code>值不是0.5</p>
 <p>float    <strong>比如：float f = 1.2f</strong></p>
 <p>double</p>
 <p>char</p>
 <p>boolean</p>
-<p>String</p>
+<p>引用数据类型：String</p>
 </blockquote>
 <h3 id="6-从键盘读取数据"><a href="#6-从键盘读取数据" class="headerlink" title="6. 从键盘读取数据"></a>6. 从键盘读取数据</h3><pre class=" language-java"><code class="language-java">Scanner input <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">int</span> value <span class="token operator">=</span> input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
@@ -646,7 +648,122 @@
 <p>自动类型转换</p>
 <p>强制类型转换    <code>long a = (long)1000F</code></p>
 </blockquote>
-<h2 id="2-选择"><a href="#2-选择" class="headerlink" title="2. 选择"></a>2. 选择</h2><script>
+<h3 id="11-关键术语"><a href="#11-关键术语" class="headerlink" title="11. 关键术语"></a>11. 关键术语</h3><blockquote>
+<p>algorithm (算法）</p>
+<p>assignment operator ( = )(陚值操作符）</p>
+<p>assignment statement (陚值语句）</p>
+<p>byte type ( 字节类型）</p>
+<p>casting (类型转换）</p>
+<p>constant (常量）</p>
+<p>datatype (数据类型）</p>
+<p>declare variables (声明变量）</p>
+<p>decrement operator (-一)(自减操作符）</p>
+<p>double type ( 双精度类型）</p>
+<p>expression ( 表达式）</p>
+<p>final keyword ( final 关键字）</p>
+<p>float type ( 浮点类型）</p>
+<p>floating-point number (浮点数）</p>
+<p>identifier (标识符）</p>
+<p>increment operator (++)(自增操作符）</p>
+<p>incremental development and testing (增量式开发和测试）</p>
+<p>int type (整数类型）</p>
+<p>IPO (输人- 处理- 输出）</p>
+<p>literal (直接量）</p>
+<p>long type (长整型类型）</p>
+<p>narrowing (of types)((类型的）缩窄）</p>
+<p>operands (操作数）</p>
+<p>operator (操作符）</p>
+<p>overflow (上溢）</p>
+<p>postdecrement (后自减）</p>
+<p>postincrement (后自增）</p>
+<p>predecrement (前自减）</p>
+<p>preincrement (前自增）</p>
+<p>primitive data type ( 基本数据类型）</p>
+<p>pseudocode (伪代码）</p>
+<p>requirement specification (需求规范）</p>
+<p>scope of a variable ( 变量范围）</p>
+<p>short type (短整型类型）</p>
+<p>specific import (明确导入）</p>
+<p>system analysis ( 系统分析）</p>
+<p>system design ( 系统设计）</p>
+<p>underflow (下溢）</p>
+<p>UNIX epoch (UNIX 时间戳）</p>
+<p>variable (变量）</p>
+<p>widening (of types )((类型的）拓宽）</p>
+<p>wildcard import ( 通配符导入）</p>
+</blockquote>
+<h2 id="二-选择"><a href="#二-选择" class="headerlink" title="二. 选择"></a>二. 选择</h2><h3 id="1-if语句"><a href="#1-if语句" class="headerlink" title="1. if语句"></a>1. if语句</h3><blockquote>
+<p>单分支if语句</p>
+<p>双分支if-else语句</p>
+<p>嵌套if语句</p>
+<p>多分支if-else语句</p>
+<p>switch语句</p>
+<blockquote>
+<p><code>switch(day){</code></p>
+<p><code>case 1:.....</code></p>
+<p><code>break;</code></p>
+<p><code>case 2:......</code></p>
+<p><code>break;</code></p>
+<p><code>case 3:......</code></p>
+<p><code>break;</code></p>
+<p><code>default:</code></p>
+<p><code>}</code></p>
+</blockquote>
+<p>三元运算符</p>
+<blockquote>
+<p><code>y = (x &gt; 0) ? 1 : -1;</code></p>
+</blockquote>
+</blockquote>
+<h3 id="2-案例：产生随机数"><a href="#2-案例：产生随机数" class="headerlink" title="2. 案例：产生随机数"></a>2. 案例：产生随机数</h3><blockquote>
+<p>Math.random();        // 随机数 &gt;=0.0 &amp;&amp; &lt;1.0</p>
+<p><code>int number = (int)Math.random()*10;</code></p>
+</blockquote>
+<h3 id="3-逻辑操作符"><a href="#3-逻辑操作符" class="headerlink" title="3. 逻辑操作符"></a>3. 逻辑操作符</h3><blockquote>
+<p>!    取非    取反</p>
+<p>&amp;&amp;    逻辑与</p>
+<p>||    逻辑或</p>
+<p>^    异或(两个不同为true，否则为flase)</p>
+</blockquote>
+<h3 id="4-案例：判定闰年"><a href="#4-案例：判定闰年" class="headerlink" title="4. 案例：判定闰年"></a>4. 案例：判定闰年</h3><blockquote>
+<p><code>boolean isLeapYear = (year % 4 == 0 &amp;&amp; year % 100 != 0 ) || (year % 400 == 0);</code></p>
+</blockquote>
+<h3 id="5-调试代码-Debugging"><a href="#5-调试代码-Debugging" class="headerlink" title="5. 调试代码(Debugging)"></a>5. 调试代码(Debugging)</h3><blockquote>
+</blockquote>
+<h3 id="6-关键术语"><a href="#6-关键术语" class="headerlink" title="6. 关键术语"></a>6. 关键术语</h3><blockquote>
+<p>Boolean expression (布尔表达式）</p>
+<p>Boolean data type ( boolean 数据类型）</p>
+<p>Boolean value (布尔值）</p>
+<p>conditional operator (条件操作符）</p>
+<p>dangling-else ambiguity (悬空else 歧义）</p>
+<p>debugging (调试）</p>
+<p>fall-through behavior (落空行为）</p>
+<p>flowchart ( 流程图）</p>
+<p>lazy operator ( 懶惰操作符）</p>
+<p>operator associativity (操作符结合规则）</p>
+<p>operator precedence (操作符优先级）</p>
+<p>selection statement (选择语句）</p>
+<p>short-circuit evaluation ( 短路运算）</p>
+</blockquote>
+<h2 id="三-数学函数，字符和字符串"><a href="#三-数学函数，字符和字符串" class="headerlink" title="三. 数学函数，字符和字符串"></a>三. 数学函数，字符和字符串</h2><h3 id="1-常用数学函数方法"><a href="#1-常用数学函数方法" class="headerlink" title="1. 常用数学函数方法"></a>1. 常用数学函数方法</h3><blockquote>
+<p>Class constants：</p>
+<blockquote>
+<p>PI(π3.14)</p>
+<p>E(自然对数的底)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>Class methods：</p>
+<blockquote>
+<p>Trigonometric Methods(三角函数)</p>
+<p>Exponent Methods(指数函数)</p>
+<p>Rounding Methods(取整方法)</p>
+<p>min，max，abs(绝对值)，and random Methods</p>
+</blockquote>
+</blockquote>
+<h3 id="2-Unicode和ASCII码"><a href="#2-Unicode和ASCII码" class="headerlink" title="2. Unicode和ASCII码"></a>2. Unicode和ASCII码</h3><blockquote>
+<p>Unicode：\u0000 to \uFFFF</p>
+</blockquote>
+<h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1163,7 +1280,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">13.6k</span>&nbsp;字
+                class="white-color">14.2k</span>&nbsp;字
             
             
             
