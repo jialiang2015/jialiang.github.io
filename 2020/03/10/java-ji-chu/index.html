@@ -556,21 +556,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-06
+                    2020-05-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.6k
+                    4.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    17 分
                 </div>
                 
 				
@@ -1002,7 +1002,127 @@ Arrays<span class="token punctuation">.</span><span class="token function">fill<
 <h3 id="10-数据域封装"><a href="#10-数据域封装" class="headerlink" title="10.数据域封装"></a>10.数据域封装</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce9.jpg" alt=""></p>
 <h3 id="11-向方法传递对象参数"><a href="#11-向方法传递对象参数" class="headerlink" title="11. 向方法传递对象参数"></a>11. 向方法传递对象参数</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce10.jpg" alt=""></p>
 <h3 id="12-对象数组"><a href="#12-对象数组" class="headerlink" title="12.对象数组"></a>12.对象数组</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce11.jpg" alt=""></p>
-<h3 id="13-不可变对象和类"><a href="#13-不可变对象和类" class="headerlink" title="13. 不可变对象和类"></a>13. 不可变对象和类</h3><script>
+<h3 id="13-不可变对象和类"><a href="#13-不可变对象和类" class="headerlink" title="13. 不可变对象和类"></a>13. 不可变对象和类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce12.jpg" alt=""></p>
+<h3 id="14-变量的作用域"><a href="#14-变量的作用域" class="headerlink" title="14.变量的作用域"></a>14.变量的作用域</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce13.jpg" alt=""></p>
+<h3 id="15-this引用"><a href="#15-this引用" class="headerlink" title="15. this引用"></a>15. this引用</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce14.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce15.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce16.jpg" alt=""></p>
+<h3 id="16-关键术语"><a href="#16-关键术语" class="headerlink" title="16. 关键术语"></a>16. 关键术语</h3><blockquote>
+<p>action ( 动作）</p>
+<p>anonymous object (匿名对象）</p>
+<p>attribute (属性）</p>
+<p>behavior (行为）</p>
+<p>class (类）</p>
+<p>class’s variable (类变量）</p>
+<p>client ( 客户）</p>
+<p>constructor ( 构造方法）</p>
+<p>date field ( 数据域）</p>
+<p>data field encapsulation ( 数据域封装）</p>
+<p>default constructor ( 默认构造方法）</p>
+<p>dot operator ( .)(点操作符）</p>
+<p>getter (or accessor)(访问器（读取器））</p>
+<p>instance (实例）</p>
+<p>instance method (实例方法）</p>
+<p>instance variable (实例变量）</p>
+<p>instantiation (实例化）</p>
+<p>immutable class (不可变类）</p>
+<p>immutable object (不可变对象）</p>
+<p>no-arg constructor (无参构造方法）</p>
+<p>null value (空值）</p>
+<p>object (对象）</p>
+<p>object-oriented programming (OOP)( 面向对象程序设计）</p>
+<p>package-private ( or package-access )(包私有（或包访问））</p>
+<p>private constructor (私有的构造方法）</p>
+<p>property (属性）</p>
+<p>public class (公共类）</p>
+<p>reference type (引用类型）</p>
+<p>reference variable (引用变童）</p>
+<p>setter (or mutator)(设置方法（修改器））</p>
+<p>state (状态)</p>
+<p>static method (静态方法）</p>
+<p>static variable (静态变量）</p>
+<p>this keyword ( this 关键字）</p>
+<p>Unified Modeling Language ( UML)(统一建模语言）</p>
+</blockquote>
+<h3 id="17-本章小结"><a href="#17-本章小结" class="headerlink" title="17. 本章小结"></a>17. 本章小结</h3><blockquote>
+<ol>
+<li>类是对象的模板。它定义对象的属性，并提供用于以创建对象的构造方法以及操作对象的普通方法。</li>
+</ol>
+<p>2.类也是一种数据类型。可以用它声明对象引用变量。对象引用变童中似乎存放了一个对象，但事实上，它包含的只是对该对象的引用。严格地讲，对象引用变量和对象是不同的，但是大多数情况下，它们的区别是可以忽略的。</p>
+<p>3.对象是类的实例。可以使用new 操作符创建对象，使用点搡作符（ .）通过对象的引用变量来访问该对象的成员。</p>
+<p>4.实例变量或方法属于类的一个实例。它的使用与各自的实例相关联。静态变量是被同一个类的所有实例所共享的。可以在不使用实例的情况下调用静态方法。</p>
+<p>5.类的每个实例都能访问这个类的静态变量和静态方法。然而，为淸晰起见，最好使用“类名.变量”和“类名.方法” 来调用静态变量和静态方法。</p>
+<p>6.可见性修饰符指定类、方法和数据是如何被访问的。公共的（ public) 类、方法或数据可以被任何客户访问，私有的（private)方法或数据只能在本类中被访问。</p>
+<p>7.可以提供get (访问器）方法或者set (修改器）方法使客户程序能够看到或修改数据。</p>
+<p>8.get 方法具有方法签名public returnType getPropertyNameO。如果返回值类型（ returnType)是boolean 型，则get 方法应该定义为public boolean isPropertyNameO。set 方法具有方法签名public void setPropertyName(dataType propertyValue),,</p>
+<p>9.所有传递给方法的参数都是值传递的。对于基本类型的参数，传递的是实际值；而若参数是引用教据类型，则传递的是对象的引用。</p>
+<p>10.Java 数组是一个可以包含基本类型值或对象类型值的对象。当创建一个对象数组时，它的元素被赋予默认值null。</p>
+<p>11.— 旦被创建，不可变对象（ immutable object) 就不能被改变了。为了防止用户修改一个对象，可以定义该对象为不可变类。</p>
+<p>12.实例变量和静态变量的作用域是整个类，无论该变量在什么位置定义。实例变量和静态变量可以在类中的任何位置定义。为一致性考虑，本书都在类的开始部分定义。</p>
+<p>13.this 关键宇可以用于引用进行调用的对象。它也可以用于在构造方法中来调用同一个类的另外一个构造方法。</p>
+</blockquote>
+<h2 id="七-面向对象的思考"><a href="#七-面向对象的思考" class="headerlink" title="七. 面向对象的思考"></a>七. 面向对象的思考</h2><h3 id="1-类的抽象和封装以及面向对象的思考"><a href="#1-类的抽象和封装以及面向对象的思考" class="headerlink" title="1. 类的抽象和封装以及面向对象的思考"></a>1. 类的抽象和封装以及面向对象的思考</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce17.jpg" alt=""></p>
+<h3 id="2-类的关系-关联"><a href="#2-类的关系-关联" class="headerlink" title="2. 类的关系 - 关联"></a>2. 类的关系 - 关联</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce18.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce19.jpg" alt=""></p>
+<h3 id="3-类的聚集和组合关系"><a href="#3-类的聚集和组合关系" class="headerlink" title="3. 类的聚集和组合关系"></a>3. 类的聚集和组合关系</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce20.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce21.jpg" alt=""></p>
+<h3 id="4-设计Course类"><a href="#4-设计Course类" class="headerlink" title="4. 设计Course类"></a>4. 设计Course类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce22.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce23.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce24.jpg" alt=""></p>
+<h3 id="5-包装类"><a href="#5-包装类" class="headerlink" title="5. 包装类"></a>5. 包装类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce25.jpg" alt=""></p>
+<h3 id="6-基本类型和包装类类型之间的自动转换"><a href="#6-基本类型和包装类类型之间的自动转换" class="headerlink" title="6. 基本类型和包装类类型之间的自动转换"></a>6. 基本类型和包装类类型之间的自动转换</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce26.jpg" alt=""></p>
+<h3 id="7-Biglnteger类和BigDecimal类"><a href="#7-Biglnteger类和BigDecimal类" class="headerlink" title="7. Biglnteger类和BigDecimal类"></a>7. Biglnteger类和BigDecimal类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce27.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce28.jpg" alt=""></p>
+<h3 id="8-构造字符串"><a href="#8-构造字符串" class="headerlink" title="8. 构造字符串"></a>8. 构造字符串</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce29.jpg" alt=""></p>
+<h3 id="9-不可变字符串与限定字符串"><a href="#9-不可变字符串与限定字符串" class="headerlink" title="9. 不可变字符串与限定字符串"></a>9. 不可变字符串与限定字符串</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce30.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce31.jpg" alt=""></p>
+<h3 id="10-字符串的替换和分割"><a href="#10-字符串的替换和分割" class="headerlink" title="10. 字符串的替换和分割"></a>10. 字符串的替换和分割</h3><blockquote>
+<p>replace</p>
+<p>split</p>
+</blockquote>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce32.jpg" alt=""></p>
+<h3 id="11-正则表达式"><a href="#11-正则表达式" class="headerlink" title="11.正则表达式"></a>11.正则表达式</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce33.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce34.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce35.jpg" alt=""></p>
+<h3 id="12-字符串和字符数组之间的转换"><a href="#12-字符串和字符数组之间的转换" class="headerlink" title="12. 字符串和字符数组之间的转换"></a>12. 字符串和字符数组之间的转换</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce36.jpg" alt=""></p>
+<h3 id="13-将字符和数值转换成字符串"><a href="#13-将字符和数值转换成字符串" class="headerlink" title="13. 将字符和数值转换成字符串"></a>13. 将字符和数值转换成字符串</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce37.jpg" alt=""></p>
+<h3 id="14-格式化字符串"><a href="#14-格式化字符串" class="headerlink" title="14. 格式化字符串"></a>14. 格式化字符串</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce38.jpg" alt=""></p>
+<h3 id="15-StringBuilder和StringBuffer类"><a href="#15-StringBuilder和StringBuffer类" class="headerlink" title="15. StringBuilder和StringBuffer类"></a>15. StringBuilder和StringBuffer类</h3><blockquote>
+<p>单线程    推荐StringBuilder</p>
+<p>多线程    推荐StringBuffer</p>
+</blockquote>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce39.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce40.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce41.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce42.jpg" alt=""></p>
+<h3 id="16-案例学习—判断回文串时忽略既非字母又非数字的字符"><a href="#16-案例学习—判断回文串时忽略既非字母又非数字的字符" class="headerlink" title="16. 案例学习—判断回文串时忽略既非字母又非数字的字符"></a>16. 案例学习—判断回文串时忽略既非字母又非数字的字符</h3><blockquote>
+<p>回文串mom</p>
+</blockquote>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce43.jpg" alt=""></p>
+<h3 id="17-关键术语"><a href="#17-关键术语" class="headerlink" title="17. 关键术语"></a>17. 关键术语</h3><blockquote>
+<p>Abstract data type (ADT) 抽象数据类型（ADT)</p>
+<p>Aggregation ( 聚集）</p>
+<p>Boxing ( 装箱）</p>
+<p>class abstraction (类抽象）</p>
+<p>class encapsulation ( 类封装）</p>
+<p>class contract ( 类的合约）</p>
+<p>composition (组合）</p>
+<p>has-a relationship (拥有关系〉</p>
+<p>multiplicity ( 多重性）</p>
+<p>stack ( 栈）</p>
+<p>unboxing ( 开箱）</p>
+</blockquote>
+<h3 id="18-本章小结"><a href="#18-本章小结" class="headerlink" title="18. 本章小结"></a>18. 本章小结</h3><blockquote>
+<p>1.面向过程范式重在设计方法。面向对象范式将数据和方法耦合在对象中。使用面向对象范式的软件设计重在对象和对象上的操作。面向对象方法结合了面向过程范式的功能以及将数据和操作集成在对象中的特点。</p>
+<p>2.许多Java 方法要求使用对象作为参数。Java 提供了一个便捷的办法，将基本数据类型合并或包装到一个对象中（例如，包装int 值到Integer 类中，包装double 值到Double 类中）。</p>
+<p>3.Java 可以根据上下文自动地将基本类型值转换为对应的包装对象，反之亦然。</p>
+<p>4.BigInteger 类在计算和处理任意大小的整数方面是很有用的。BigDecimal 类可以用作计算和处理</p>
+<p>带任意精度的浮点数。</p>
+<p>5.String 对象是不可变的，它的内容不能改变。为了提高效率和节省内存，如果两个直接量字符串有相同的字符序列，Java 虚拟机就将它们存储在一个对象中。这个独特的对象称为限定字符串对象。</p>
+<p>6.正则表达式（缩写regex) 是一个描述模板的字符串，用于匹配一系列字符串。可以通过指定一个模板来匹配、替代或者分隔字符串。</p>
+<p>7.StringBuilder/StringBuffer 类可以用来替代String 类。String 对象是不可变的，但是可以向StringBuilder/StringBuffer 对象中添加、插人或追加新的内容。如果字符串的内容不需要任何改变，就使用String 类；如果可能改变的话，则使用StringBuilder/StringBuffer 类。</p>
+</blockquote>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1509,7 +1629,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">20k</span>&nbsp;字
+                class="white-color">21.6k</span>&nbsp;字
             
             
             
