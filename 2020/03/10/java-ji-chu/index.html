@@ -556,21 +556,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-09
+                    2020-05-10
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.3k
+                    5.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    17 分
+                    22 分
                 </div>
                 
 				
@@ -1140,7 +1140,99 @@ Arrays<span class="token punctuation">.</span><span class="token function">fill<
 <p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce56.jpg" alt=""></p>
 <h3 id="9-对象转换和instanceof运算符"><a href="#9-对象转换和instanceof运算符" class="headerlink" title="9. 对象转换和instanceof运算符"></a>9. 对象转换和instanceof运算符</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce57.jpg" alt=""></p>
 <h3 id="10-Object类的equals方法"><a href="#10-Object类的equals方法" class="headerlink" title="10. Object类的equals方法"></a>10. Object类的equals方法</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce58.jpg" alt=""></p>
-<script>
+<h3 id="11-protected数据和方法"><a href="#11-protected数据和方法" class="headerlink" title="11. protected数据和方法"></a>11. protected数据和方法</h3><h3 id="12-防止扩展和重写"><a href="#12-防止扩展和重写" class="headerlink" title="12. 防止扩展和重写"></a>12. 防止扩展和重写</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce59.jpg" alt=""></p>
+<h3 id="13-关键术语-1"><a href="#13-关键术语-1" class="headerlink" title="13. 关键术语"></a>13. 关键术语</h3><blockquote>
+<p>actual type (实际类型）</p>
+<p>casting object (转换对象）</p>
+<p>constructor chaining (构造方法链)</p>
+<p>declared type (声明类型）</p>
+<p>dynamic binding (动态绑定）</p>
+<p>inheritance (继承）</p>
+<p>instanceof (运算符，是……类型的实例）</p>
+<p>is-a relationship (是关系）</p>
+<p>method overriding (方法重写）</p>
+<p>multiple inheritance (多重继承）</p>
+<p>override (重写）</p>
+<p>polymorphism (多态）</p>
+<p>protected (受保护修饰符&gt;</p>
+<p>single inheritance (单一继承）</p>
+<p>subclass(子类）</p>
+<p>subtype (子类型）</p>
+<p>superclass (父类）</p>
+<p>supertype (父类型）</p>
+<p>type inference (类型推导）</p>
+</blockquote>
+<h3 id="14-本章小结"><a href="#14-本章小结" class="headerlink" title="14. 本章小结"></a>14. 本章小结</h3><blockquote>
+<p>1.可以从现有的类定义新的类，这称为类的继承。新类称为次类、子类或继承类；现有的类称为超类、父类或基类。</p>
+<p>2.构造方法用来构造类的实例。不同于厲性和方法，子类不继承父类的构造方法。它们只能用关键字super 从子类的构造方法中调用。</p>
+<p>3.构造方法可以调用重载的构造方法或它的父类的构造方法。这种调用必须是构造方法的第一条语句。如果没有显式地调用它们中的任何一个，编译器就会把super()作为构造方法的第一条语句，它调用的是父类的无参构造方法。</p>
+<p>4.为了重写一个方法，必须使用与它的父类中的方法相同的签名来定义子类中的方法。</p>
+<p>5.实例方法只有在可访问时才能重写。这样，私有方法是不能重写的，因为它是不能在类本身之外访问的。如果子类中定义的方法在父类中是私有的，那么这两个方法是完全没有关系的。</p>
+<p>6.静态方法与实例方法一样可以继承。但是，静态方法不能重写，如果父类中定义的静态方法在子类中重新定义，那么父类中定义的方法被隐藏。</p>
+<p>7.Java 中的每个类都继承自java.Ung.Object 类。如果一个类在定义时没有指定继承关系，那么它的父类就是Object。</p>
+<p>8.如果一个方法的参数类型是父类（例如：Object), 可以向该方法的参数传递任何子类（例如：Circle 类或String 类）的对象。这称为多态。</p>
+<p>9.因为子类的实例总是它的父类的实例，所以，总是可以将一个子类的实例转换成一个父类的变量。当把父类实例转换成它的子类变量时，必须使用转换记号（子类名）进行显式转换，向编译器表明你的意图。</p>
+<p>10.— 个类定义一个类型。子类定义的类型称为子类型，而父类定义的类型称为父类型。</p>
+<p>11.当从引用变置调用实例方法时，该变量的实际类塹在运行时决定使用该方法的W个实现。这称为动态定。</p>
+<p>12可以使用表达式obj instanceof AClass (对象名instanceof 类名）测试一个对象是否是一个类的实例。</p>
+<p>13.可以使用ArrayList 类来创建一个对象，用于存储一个对象列表。</p>
+<p>14.可以使用protected 修饰符来防止方法和数据被不同包的非子类访问。</p>
+<p>15.可以用final 修饰符来表明一个类是最终类，是不能被继承的；也可以表明一个方法是最终的，是不能重写的。</p>
+</blockquote>
+<h2 id="九-抽象类和接口"><a href="#九-抽象类和接口" class="headerlink" title="九.抽象类和接口"></a>九.抽象类和接口</h2><h3 id="1-抽象类"><a href="#1-抽象类" class="headerlink" title="1. 抽象类"></a>1. 抽象类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce60.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce61.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce62.jpg" alt=""></p>
+<h3 id="2-抽象的number类"><a href="#2-抽象的number类" class="headerlink" title="2. 抽象的number类"></a>2. 抽象的number类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce63.jpg" alt=""></p>
+<h3 id="3-接口"><a href="#3-接口" class="headerlink" title="3. 接口"></a>3. 接口</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce64.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce65.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce66.jpg" alt=""></p>
+<h3 id="4-Comparable接口"><a href="#4-Comparable接口" class="headerlink" title="4. Comparable接口"></a>4. Comparable接口</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce67.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce68.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce69.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce70.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce71.jpg" alt=""></p>
+<h3 id="5-Cloneable接口"><a href="#5-Cloneable接口" class="headerlink" title="5. Cloneable接口"></a>5. Cloneable接口</h3><blockquote>
+<p>基本类型——浅拷贝</p>
+<p>引用类型——要深拷贝</p>
+</blockquote>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce72.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce73.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce74.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce75.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce76.jpg" alt=""></p>
+<h3 id="6-关键术语-1"><a href="#6-关键术语-1" class="headerlink" title="6. 关键术语"></a>6. 关键术语</h3><blockquote>
+<p>abstract class ( 抽象类）</p>
+<p>abstract method (抽象方法）</p>
+<p>deep copy ( 深复制）</p>
+<p>interface (接口）</p>
+<p>marker interface (标记接口）</p>
+<p>shallow copy (浅复制）</p>
+<p>subinterface ( 子接口）</p>
+</blockquote>
+<h3 id="7-本章小结"><a href="#7-本章小结" class="headerlink" title="7. 本章小结"></a>7. 本章小结</h3><blockquote>
+<p>1.抽象类和常规类一样，都有数据和方法，但是不能用new 操作符创建抽象类的实例。</p>
+<p>2.非抽象类中不能包含抽象方法。如果抽象类的子类没有实现所有被继承的父类抽象方法，就必须将该子类也定义为抽象类。</p>
+<p>3.包含抽象方法的类必须是抽象类。但是，抽象类可以不包含抽象的方法。</p>
+<p>4.即使父类是具体的，子类也可以是抽象的。</p>
+<p>5.接口是一种与类相似的结构，只包含常量和抽象方法。接口在许多方面与抽象类很相近，但抽象类除了包含常量和抽象方法外，还可以包含变量和具体方法。</p>
+<p>6.在Java 中，接口被认为是一种特殊的类。就像常规类一样，每个接口都被编译为独立的字节码文件。</p>
+<p>7.接口java.lang.Comparable 定义了compareTo 方法。Java 类库中的许多类都实现了Comparable。</p>
+<p>8• 接口java.lang.Cloneable 是一个标记接口。实现Cloneable 接口的类的对象是可克隆的。</p>
+<p>9.个类仅能继承一个父类，但一个类却可以实现一个或多个接口。</p>
+<p>10.— 个接口可以继承一个或多个接口。</p>
+</blockquote>
+<h2 id="十-异常处理和文本I-O"><a href="#十-异常处理和文本I-O" class="headerlink" title="十. 异常处理和文本I/O"></a>十. 异常处理和文本I/O</h2><h3 id="1-异常处理概述"><a href="#1-异常处理概述" class="headerlink" title="1. 异常处理概述"></a>1. 异常处理概述</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce77.jpg" alt=""></p>
+<h3 id="2-异常类型"><a href="#2-异常类型" class="headerlink" title="2. 异常类型"></a>2. 异常类型</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce78.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce79.jpg" alt=""></p>
+<h3 id="3-声明，抛出和捕获异常"><a href="#3-声明，抛出和捕获异常" class="headerlink" title="3. 声明，抛出和捕获异常"></a>3. 声明，抛出和捕获异常</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce80.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce81.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce82.jpg" alt=""></p>
+<p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce83.jpg" alt=""></p>
+<h3 id="4-案例—声明，抛出和捕获异常"><a href="#4-案例—声明，抛出和捕获异常" class="headerlink" title="4. 案例—声明，抛出和捕获异常"></a>4. 案例—声明，抛出和捕获异常</h3><h3 id="5-finally子句"><a href="#5-finally子句" class="headerlink" title="5. finally子句"></a>5. finally子句</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce84.jpg" alt=""></p>
+<h3 id="6-何时使用异常"><a href="#6-何时使用异常" class="headerlink" title="6. 何时使用异常"></a>6. 何时使用异常</h3><h3 id="7-重新抛出异常"><a href="#7-重新抛出异常" class="headerlink" title="7. 重新抛出异常"></a>7. 重新抛出异常</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce85.jpg" alt=""></p>
+<h3 id="8-链式异常"><a href="#8-链式异常" class="headerlink" title="8. 链式异常"></a>8. 链式异常</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce86.jpg" alt=""></p>
+<h3 id="9-File类"><a href="#9-File类" class="headerlink" title="9. File类"></a>9. File类</h3><p><img src="/2020/03/10/java-ji-chu/F:%5Cblog%5CwxhygrBlog%5Csource_posts%5CJava-%E5%9F%BA%E7%A1%80%5Ce87.jpg" alt=""></p>
+<h3 id="10-PrintWrite和try-with-resources语法"><a href="#10-PrintWrite和try-with-resources语法" class="headerlink" title="10. PrintWrite和try-with-resources语法"></a>10. PrintWrite和try-with-resources语法</h3><h3 id="11-使用Scanner读取数据"><a href="#11-使用Scanner读取数据" class="headerlink" title="11. 使用Scanner读取数据"></a>11. 使用Scanner读取数据</h3><h3 id="12-从web读取数据"><a href="#12-从web读取数据" class="headerlink" title="12. 从web读取数据"></a>12. 从web读取数据</h3><h2 id="十一-Java数据结构"><a href="#十一-Java数据结构" class="headerlink" title="十一. Java数据结构"></a>十一. Java数据结构</h2><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1647,7 +1739,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">21.7k</span>&nbsp;字
+                class="white-color">23.1k</span>&nbsp;字
             
             
             
